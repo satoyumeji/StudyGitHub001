@@ -1,0 +1,9 @@
+.id {
+  border: 4px solid;
+  border-color: red blue green yellow;
+}
+
+.pass {
+  border: 4px solid;
+  border-color: red blue green yellow;
+}
