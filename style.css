@@ -1,3 +1,14 @@
 .mainbackground{
-    background-color: aquamarine;
+    
+}
+.id {
+  border: 4px solid;
+  border-color: red blue green yellow;
+  background-color: aquamarine;
+}
+
+.pass {
+  border: 4px solid;
+  border-color: red blue green yellow;
+  background-color: aquamarine;
 }
