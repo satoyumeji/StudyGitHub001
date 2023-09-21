@@ -2,3 +2,9 @@
 {
     background: gray;
 }
+
+.asasasa{
+    box-shadow: 0 0 5px 0 rgba(255,153,0,1);
+    border: 2px solid #FFF !important;
+    outline: 0;
+}
