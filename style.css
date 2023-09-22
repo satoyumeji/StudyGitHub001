@@ -1,4 +1,8 @@
 .color{
-    background-color:darkgrey;
+    background-color:whitesmoke;
     border: 1px solid red;
+}
+
+body{
+    background-color: blue;
 }
