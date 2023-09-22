@@ -2,11 +2,11 @@
 .id {
   border: 4px solid;
   border-color: red blue green yellow;
-  background-color: aquamarine;
+  background-color: blue;
 }
 
 .pass {
   border: 4px solid;
   border-color: red blue green yellow;
-  background-color: aquamarine;
+  background-color: blue;
 }
