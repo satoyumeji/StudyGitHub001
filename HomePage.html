@@ -14,15 +14,34 @@
  <!----- /header ----->
  
  <!----- main ----->
-
- id<input class="id" maxlength="4" >
+ <form onsubmit="return validateEmail()">
+ id<input type="email" class="id"  >
  pass<input class="pass" maxlength="4">
 
 <input type="submit">
- 
+</form>
+
  <!----- footer ----->
  <footer>フッター</footer>
  <!----- /footer ----->
+ <script>
+    function validateEmail() {
+        var emailInput = document.getElementById("email").value;
+        var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        
+        if (!emailPattern.test(emailInput)) {
+            alert("正しいメールアドレスを入力してください。");
+            return false;
+        }
+        
+        // フォーム送信を許可
+        return true;
+    }
+</script>
+
+
+
+
  </body>
 </html>
 
